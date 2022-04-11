@@ -1,0 +1,60 @@
+html {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    background-color: black;
+    height: fit-content;
+    min-height: 9vh;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    padding: 2vh;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+header a {
+    font-family: acier-bat-outline,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: azure;
+    font-size: 7vh;
+    padding:2vh;
+    padding-right: 2vh;
+    height: fit-content;
+    margin-bottom: 0;
+}
+
+header div {
+    margin: auto;
+    width: max-content;
+    display: flex;
+    margin-bottom: 0;
+}
+
+header div a {
+    font-family: poppins,sans-serif;
+    font-weight: 650;
+    font-style: normal;
+    font-size: 3vh;
+    margin-right: 5vh;
+    text-align: center;
+}
+
+@media (max-width: 100vh) {
+    header {
+        display: block;
+    }
+    header a {
+        text-align: center;
+        margin: auto;
+    }
+}
+

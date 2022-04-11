@@ -1,0 +1,46 @@
+.onetwo {
+    width: 30%;
+    margin: 5vh;
+    background-color: rgb(60, 60, 60);
+    height: 60vh;
+    padding: 4vh;
+    border-radius: 3vh;
+    justify-content: right;
+    right: 0;
+}
+
+.one {
+    display: flex;
+    min-height: 70vh;
+    padding: 4vh;
+    height: fit-content;
+    background-color: black;
+    background-image: url(../assets/mpgbg.jpg);
+    color: #f1d403;
+    background-size: contain;
+}
+
+.two {
+    height: 50vh;
+    width: 100%;
+    background-color: #f1d403;
+    offset-position: -100%;
+    offset-anchor: center;
+}
+
+.onetwo h3 {
+    font-family: coordinates,monospace;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+.onetwo h1 {
+    font-family: coordinates,monospace;
+    font-weight: 600;
+    font-style: normal; 
+}
+
+bold {
+    text-decoration: solid;
+    font-style: bold;
+}
