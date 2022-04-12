@@ -30,6 +30,7 @@ header a {
     padding-right: 2vh;
     height: fit-content;
     margin-bottom: 0;
+    text-decoration: none;
 }
 
 header div {

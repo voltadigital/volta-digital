@@ -58,10 +58,12 @@
     font-weight: 400;
     font-style: normal;
     color: rgb(255, 0, 0);
+    padding-left: 5vh;
+    padding-top: 3vh;
 }
 .two h1 {
     font-weight: 600;
-    font-size: 6vh;
+    font-size: 7.5vh;
     margin: 4vh;
     opacity: 1;
 }
@@ -69,7 +71,7 @@
 .two a {
     color: rgb(230, 241, 241);
     text-decoration: none;
-    font-size: 4.5vh;
+    font-size: 6vh;
     margin-left: 4vh;
     opacity: 1;
 }
