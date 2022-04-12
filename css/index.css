@@ -22,18 +22,6 @@
     background-repeat: no-repeat;
 }
 
-.two {
-    height: 50vh;
-    width: 100%;
-    background-color: #000000;
-    opacity: 0.8;
-    background-image:  linear-gradient(30deg, #f1d403 12%, transparent 12.5%, transparent 87%, #f1d403 87.5%, #f1d403), linear-gradient(150deg, #f1d403 12%, transparent 12.5%, transparent 87%, #f1d403 87.5%, #f1d403), linear-gradient(30deg, #f1d403 12%, transparent 12.5%, transparent 87%, #f1d403 87.5%, #f1d403), linear-gradient(150deg, #f1d403 12%, transparent 12.5%, transparent 87%, #f1d403 87.5%, #f1d403), linear-gradient(60deg, #f1d40377 25%, transparent 25.5%, transparent 75%, #f1d40377 75%, #f1d40377), linear-gradient(60deg, #f1d40377 25%, transparent 25.5%, transparent 75%, #f1d40377 75%, #f1d40377);
-    background-size: 20px 35px;
-    background-position: 0 0, 0 0, 10px 18px, 10px 18px, 0 0, 10px 18px;
-    offset-position: -100%;
-    offset-anchor: center;
-    height: 50vh;
-}
 
 .onetwo h3 {
     font-family: coordinates,monospace;
@@ -54,7 +42,43 @@
     color: #ffe100;
 }
 
-@media (max-width: 125vh) {
+
+.two {
+    height: 50vh;
+    width: 100%;
+    background-color: #000000;
+    opacity: 1;
+    background-image:  linear-gradient(30deg, #f1d403 10%, transparent 10.5%, transparent 85%, #f1d403 85.5%, #f1d403), linear-gradient(150deg, #f1d403 10%, transparent 10.5%, transparent 85%, #f1d403 85.5%, #f1d403), linear-gradient(30deg, #f1d403 10%, transparent 10.5%, transparent 85%, #f1d403 85.5%, #f1d403), linear-gradient(150deg, #f1d403 10%, transparent 10.5%, transparent 85%, #f1d403 85.5%, #f1d403), linear-gradient(60deg, #f1d40377 25%, transparent 25.5%, transparent 75%, #f1d40377 75%, #f1d40377), linear-gradient(60deg, #f1d40377 25%, transparent 25.5%, transparent 75%, #f1d40377 75%, #f1d40377);
+    background-size: 20px 35px;
+    background-position: 0 0, 0 0, 10px 18px, 10px 18px, 0 0, 10px 18px;
+    offset-position: -100%;
+    offset-anchor: center;
+    height: 50vh;
+    font-family: basic-sans,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 0, 0);
+}
+.two h1 {
+    font-weight: 600;
+    font-size: 6vh;
+    margin: 4vh;
+    opacity: 1;
+}
+
+.two a {
+    color: rgb(230, 241, 241);
+    text-decoration: none;
+    font-size: 4.5vh;
+    margin-left: 4vh;
+    opacity: 1;
+}
+
+.two a:hover {
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width: 105vh) {
     .onetwo {
         width: 50%;
         font-size: 2vh;
