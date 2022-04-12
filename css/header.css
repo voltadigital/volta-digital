@@ -20,14 +20,18 @@ body {
 
 /* section: nav */
 nav {
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
     display: flex;
     align-items: center;
     min-height: 8vh;
     background-color: black;
     color: #f1d403;
-    font-family: bilo, sans-serif;
-    font-weight: 700;
+    font-family: poppins,sans-serif;
+    font-weight: 400;
     font-style: normal;
+    width: max-content;
+    width: 100%;   
 }
 
 .logo {
@@ -37,34 +41,37 @@ nav {
     font-family: acier-bat-outline,sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 5vh;
+    font-size: 8vh;
     text-align: left;
-    margin-left: 3vh;
+    padding: 2vh;
+    width: fit-content;
+    min-width: 30%;
 }
 
 .navlink {
     display: flex;
     justify-content: space-around;
     width: 80%;
-    text-transform: uppercase;
-    word-spacing: 130%;
+    word-spacing: 90%;
     letter-spacing: 3px;
-    font-size: 17px;
+    font-size: 5vh;
     color: #f1d403;
 }
 
 .navlink li {
     list-style: none;
     text-decoration: none;
+    font-size: 3vh;
+    font-weight: 700;
+    letter-spacing: 0.2vh;
 
 }
 .navlink {
     display: flex;
     justify-content: space-around;
     width: 80%;
-    text-transform: uppercase;
-    word-spacing: 130%;
-    letter-spacing: 3px;
+    word-spacing: 80%;
+    letter-spacing: 0;
     font-size: 17px;
     color: #f1d403;
 }
@@ -85,7 +92,7 @@ nav {
 }
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:147vh) {
     .navlink {
         position: absolute;
         right: 0px;

@@ -3,18 +3,6 @@
     <link rel="stylesheet" href="https://use.typekit.net/pfj2vok.css">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/header.css">
-    <script>
-        const navSlide = () => {
-        const burger = document.querySelector('.burger')
-        const nav = document.querySelector('.navlink')
-
-        burger.addEventListener('click', ()=>{
-            nav.classList.toggle('navclick')
-        });
-        }
-
-        navSlide();
-    </script>
 </head>
 <body>
     <div class="nav-container">
@@ -23,11 +11,11 @@
                 <a>volta digital</a>
             </div>
             <ul class="navlink">
-                <li><a style="text-decoration: none; color: #f1d403;" href="../projects">Projects</a></li>
-                <li><a style="text-decoration: none; color: #f1d403;" href="../contact">Contact</a></li>
-                <li><a style="text-decoration: none; color: #f1d403;" href="../about">About</a></li>
+                <li><a style="text-decoration: none; color: #ffffff;" href="../projects">Projects</a></li>
+                <li><a style="text-decoration: none; color: #ffffff;" href="../contact">Contact</a></li>
+                <li><a style="text-decoration: none; color: #ffffff;" href="../about">About</a></li>
             </ul>
-            <div class="burger">
+            <div onclick="document.querySelector('.navlink').classList.toggle('navclick')" class="burger">
                 <div class="burger1"></div>
                 <div class="burger2"></div>
                 <div class="burger3"></div>
