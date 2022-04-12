@@ -17,7 +17,9 @@
     background-color: black;
     background-image: url(../assets/mpgbg.jpg);
     color: #f1d403;
-    background-size: contain;
+    background-size: cover;
+    background-position: 0;
+    background-repeat: no-repeat;
 }
 
 .two {
@@ -40,7 +42,28 @@
     font-style: normal; 
 }
 
-bold {
+.onetwo bold {
     text-decoration: solid;
     font-style: bold;
+    font-weight: 1000;
+    color: #ffe100;
 }
+
+@media (max-width: 125vh) {
+    .onetwo {
+        width: 50%;
+        font-size: 2vh;
+    }
+}
+
+@media (max-width: 60vh) {
+    .onetwo {
+        width: 90%;
+
+    }
+    
+}
+
+
+
+

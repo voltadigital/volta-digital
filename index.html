@@ -3,22 +3,43 @@
     <link rel="stylesheet" href="https://use.typekit.net/pfj2vok.css">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/header.css">
+    <script>
+        const navSlide = () => {
+        const burger = document.querySelector('.burger')
+        const nav = document.querySelector('.navlink')
+
+        burger.addEventListener('click', ()=>{
+            nav.classList.toggle('navclick')
+        });
+        }
+
+        navSlide();
+    </script>
 </head>
 <body>
-    <header>
-        <a>volta digital</a>
-        <div>
-            <a>Projects</a>
-            <a>About</a>
-            <a>Contact</a>
-        </div>
-    </header>
+    <div class="nav-container">
+        <nav>
+            <div class="logo"> 
+                <a>volta digital</a>
+            </div>
+            <ul class="navlink">
+                <li><a style="text-decoration: none; color: #f1d403;" href="../projects">Projects</a></li>
+                <li><a style="text-decoration: none; color: #f1d403;" href="../contact">Contact</a></li>
+                <li><a style="text-decoration: none; color: #f1d403;" href="../about">About</a></li>
+            </ul>
+            <div class="burger">
+                <div class="burger1"></div>
+                <div class="burger2"></div>
+                <div class="burger3"></div>
+            </div>
+        </nav>
+    </div>
     <main>
         <div class="one">
             <div class="onetwo">
                 <h1>Websites & digital content?</h1>
                 <h1>That's our thing.</h1>
-                <h3>VOLTA provides top tier web based services like <bold>Sites, APIs, </bold>and<bold> CDNs</bold> and digital content creation.</h3>
+                <h3>VOLTA builds, manages, and provides top tier web based services like <bold>Sites, APIs, CDNs</bold> and<bold> digital content creation.</bold></h3>
             </div>
         </div>
         <div class="two">
@@ -28,4 +49,5 @@
     <footer>
 
     </footer>
+
 </body>
