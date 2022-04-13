@@ -1,5 +1,6 @@
 html {
     width: 100%;
+    margin: 0;
 }
 
 body {
@@ -58,8 +59,5 @@ header div a {
     header a {
         margin-left: auto;
         margin-right: 2vh;
-    }
-    html {
-        width: fit-content;
     }
 }
