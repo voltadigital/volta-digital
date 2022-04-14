@@ -4,4 +4,69 @@
     min-height: 85.7vh;
     color: black;
     padding: auto;
+    padding-top: 3vh;
+}
+.one .title {
+    font-family: basic-sans,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 9vh;
+    margin: 3vh;
+}
+
+.projects a {    text-decoration: none; color: black;}
+
+.project {
+    letter-spacing: .05em;
+    font-family: basic-sans,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    min-height: 14vh;
+    width: 56%;
+    padding: 2%;
+    height:fit-content;
+    border: 2em black;
+}
+
+.projects {
+    display: flex;
+}
+
+.project div {
+    margin: 0;
+    width: 40%;
+}
+
+.project h1 h3 {
+    margin: 0;
+}
+
+.project img {
+    margin-left: 0%;
+    width: 45%;
+    height: max-content;
+}
+
+@media (max-width: 100vh) {
+    .project {
+        width: 90%;
+        margin: 4%;
+        min-height: 18vh;
+        display: block;
+    }
+    .project div {
+        display: block;
+        margin: 0;
+        width: 100%;
+    }
+    .project img {
+        width: 100%;
+    }
+    .project h1 {
+        font-size: 5vh;
+    }   
+    .project h3 {
+        font-size: 2.5vh;
+    }
 }
