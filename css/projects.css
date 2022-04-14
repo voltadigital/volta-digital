@@ -44,8 +44,17 @@
     margin: 0;
 }
 
+.project h1 {
+    font-size: 5vh;
+}
+
+.project h3 {
+    font-size: 3vh;
+}
+
 .project img {
-    width: 90%;
+    width: 98%;
+    margin: 1%;
     height: max-content;
 }
 
